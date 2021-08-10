@@ -1,13 +1,16 @@
-const Sequelize = require("sequelize")
+// const Sequelize = require("sequelize")
 // const sequelize = require("../utils/database")
+import { Sequelize } from "sequelize"
+import * from "../index.s"
+import sequelize from "../utils/database.js"
 
 
-import("./utils/database")
-    .then(orm => { var sequelize = orm })
-    .catch(err => {
-        console.log(err)
-        process.exit(1)
-    })
+// import("./utils/database")
+//     .then(orm => { var sequelize = orm })
+//     .catch(err => {
+//         console.log(err)
+//         process.exit(1)
+//     })
 
 
 const Author = sequelize.define("author", {
