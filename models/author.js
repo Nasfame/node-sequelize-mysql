@@ -1,5 +1,6 @@
+adsads
 const Sequelize = require("sequelize")
-const sequelize = require("../util/database")
+const sequelize = require("../utils/database")
 
 const Author = sequelize.define("author", {
     id: {

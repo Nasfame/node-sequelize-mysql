@@ -1,4 +1,4 @@
-const sequelize = require("./util/database")
+const sequelize = require("./utils/database")
 
 const Author = require("./models/author")
 const Blog = require("./models/blog")

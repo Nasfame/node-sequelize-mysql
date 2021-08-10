@@ -1,7 +1,7 @@
 {
   "name": "node-sequelize-mysql",
   "version": "1.0.0",
-  "description": "",
+  "description": "NodeJS ORM - Sequelize implementation with mysql db",
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js"
@@ -15,5 +15,13 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.12"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nasfame/node-sequelize-mysql.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Nasfame/node-sequelize-mysql/issues"
+  },
+  "homepage": "https://github.com/Nasfame/node-sequelize-mysql#readme"
 }
