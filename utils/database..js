@@ -5,5 +5,4 @@ const sequelize = new Sequelize("sequelize", "root", "1234", {
     host: localhost //is by default
 })
 
-
-module.exports = sequelize
+module.exports = sequelizeod
