@@ -1,6 +1,9 @@
 const Sequelize = require("sequelize")
 const sequelize = require("../utils/database")
 
+
+console.log(sequelize)
+
 const Blog = sequelize.define("blog", {
     id: {
         type: Sequelize.INTEGER,
@@ -14,4 +17,4 @@ const Blog = sequelize.define("blog", {
     }
 })
 
-module.Exports = Blog
+module.exports = Blog

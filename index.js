@@ -1,9 +1,8 @@
 // const sequelize = require("./utils/database")
 
-var sequelize
 
 import("./utils/database")
-    .then(orm => sequelize = orm)
+    .then(orm => { var sequelize = orm })
     .catch(err => {
         console.log(err)
         process.exit(1)
