@@ -1,20 +1,17 @@
-const Sequelize = require("sequelize")
-const sequelize = require("../utils/database")
-
-
-console.log(sequelize)
+import { Sequelize } from "sequelize"
+import sequelize from "../utils/database.js"
 
 const Blog = sequelize.define("blog", {
-    id: {
-        type: Sequelize.INTEGER,
-        autoIncrement: true,
-        allowNull: false,
-        primaryKey: true
-    },
+    // id: { //by default
+    //     type: Sequelize.INTEGER,
+    //     autoIncrement: true,
+    //     allowNull: false,
+    //     primaryKey: true
+    // },
     name: {
         type: Sequelize.STRING,
         allowNull: false
     }
 })
 
-module.exports = Blog
+export default Blog
